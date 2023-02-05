@@ -1,7 +1,7 @@
-from models import (TokenizationRequest,
-                    TokenizationResponse,
-                    StemmingRequest,
-                    StemmingResponse)
+from models.language import (TokenizationRequest,
+                             TokenizationResponse,
+                             StemmingRequest,
+                             StemmingResponse)
 from services import language
 from fastapi.routing import APIRouter
 
