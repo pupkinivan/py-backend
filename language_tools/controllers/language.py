@@ -7,7 +7,7 @@ from fastapi.routing import APIRouter
 
 language_router = APIRouter(
     prefix="/language",
-     tags=["language", "tokenization", "stemming"]
+     tags=["language"]
 )
 
 @language_router.post("/tokens")
