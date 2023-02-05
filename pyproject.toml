@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "language-tools"
+version = "0.1.0"
+description = "Language tools for Spanish"
+authors = ["Ivan Pupkin <ipupkin@untref.edu.ar>"]
+readme = "README.md"
+packages = [{include = "language_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nltk = "^3.8.1"
+spacy = "^3.5.0"
+pydantic = "^1.10.4"
+fastapi = "^0.89.1"
+uvicorn = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
